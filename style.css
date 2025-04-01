@@ -15,8 +15,8 @@ body{
 
 #clock{
     font-family: monospace;
-    font-size: 10.5rem;
+    font-size: 14rem;
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
