@@ -1,4 +1,8 @@
 body{
+    background-image:url(background.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0;
 }
 
@@ -6,5 +10,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 100vh;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 10.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
 }
