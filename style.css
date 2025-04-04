@@ -11,6 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    filter:drop-shadow(30px 10px 4px #ddb944)
 }
 
 #clock{
@@ -19,4 +20,22 @@ body{
     font-weight: bold;
     text-align: center;
     color: rgb(0, 0, 0);
+}
+
+.sparkle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: radial-gradient(circle, #e6c804, transparent);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: fadeOut 0.8s ease-out forwards;
+    z-index: 9999;
+}
+
+@keyframes fadeOut {
+    to {
+        transform: translateY(-10px) scale(0.5);
+        opacity: 0;
+    }
 }
