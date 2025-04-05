@@ -1,5 +1,5 @@
 body{
-    background-image:url(background.jpg); 
+    background-image:url(background2.jpg); 
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -24,8 +24,8 @@ body{
 
 .sparkle {
     position: absolute;
-    width: 8px;
-    height: 8px;
+    width: 15px;
+    height: 15px;
     background: radial-gradient(circle, #e6c804, transparent);
     border-radius: 50%;
     pointer-events: none;
