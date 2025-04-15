@@ -12,6 +12,16 @@
         <div id="clock">00:00:00</div>
     </div>
     
+    <div id="music-controls">
+        <label for="musicSelector">🎵 Background Music:</label>
+        <select id="musicSelector">
+            <option value="music/pandora.mp3">Shower</option>
+        </select>
+        <button id="toggleBtn">⏯️ Play / Pause</button>
+    </div>
+    
+    <audio id="bgMusic" loop volume="1"></audio>
+
     <script src="index.js"></script>
 </body>
 </html>

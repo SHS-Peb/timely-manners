@@ -1,3 +1,31 @@
+const musicSelector = document.getElementById("musicSelector");
+const bgMusic = document.getElementById("bgMusic");
+const toggleBtn = document.getElementById("toggleBtn");
+
+musicSelector.addEventListener("change", () => {
+    bgMusic.src = musicSelector.value;
+    bgMusic.play();
+    bgMusic.volume = 1;
+
+});
+
+
+toggleBtn.addEventListener("click", () => {
+    if (bgMusic.paused) {
+        bgMusic.play();
+    } else {
+        bgMusic.pause();
+    }
+});
+
+window.addEventListener("load", () => {
+    bgMusic.src = musicSelector.value;
+    bgMusic.play().catch(() => {
+        console.log("Autoplay blocked until user interacts.");
+    });
+});
+
+ 
  function updateClock() {
     const now = new Date();
     let hours = now.getHours().toString().padStart(2, 0);
