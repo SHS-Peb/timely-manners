@@ -43,6 +43,8 @@ body{
 #music-controls {
     text-align: center;
     margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
 }
 
 #music-controls select,
@@ -50,5 +52,7 @@ body{
     padding: 10px;
     margin: 10px;
     font-size: 16px;
+    color: rgb(33, 28, 28);
+    background-color: pink;
 }
 
