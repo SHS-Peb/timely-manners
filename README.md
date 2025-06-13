@@ -22,6 +22,11 @@ A simple web app that shows the current time and lets you play background music.
 - `index.js` – JavaScript for clock and music
 - `music/` – folder for your `.mp3` files
 
+## Screenshots
+
+### Main Page
+![Main Page Screenshot](images/homepage.PNG)
+
 ## Customize
 
 You can add your own songs by:
