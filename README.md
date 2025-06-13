@@ -25,7 +25,7 @@ A simple web app that shows the current time and lets you play background music.
 ## Screenshots
 
 ### Main Page
-![Main Page Screenshot](images/homepage.PNG)
+![Main Page Screenshot](homepage.PNG)
 
 ## Customize
 
